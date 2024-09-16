@@ -1,30 +1,43 @@
+/* Apply a black background and white text color to the body */
 body {
     text-align: center;
     background-color: black;
     color: white;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Style the heading 2 element */
 #heading2-el {
     color: green;
     font-size: 70px;
+    margin: 0;
 }
 
+/* Style the button element */
 #button-el {
-    text-align: center;
     padding: 10px 20px;
     margin-top: 20px;
     background-color: green;
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 07px;
-}
-
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 7px;
     font-size: 18px;
 }
-/* #button-el:hover {
+
+/* Optional: Add a hover effect for the button */
+#button-el:hover {
     background-color: #0056b3;
-} */
+}
+
+/* Style paragraphs */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
